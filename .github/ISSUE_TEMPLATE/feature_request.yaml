@@ -1,0 +1,31 @@
+# .github/ISSUE_TEMPLATE/feature_request.yaml
+name: Feature Request
+description: Suggest an idea for StormDetection.
+title: "[Feature]: "
+labels: ["feature"]
+assignees: []
+body:
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Describe the Feature
+      description: A clear and concise description of the feature you'd like to see.
+      placeholder: "Add support for real-time storm tracking..."
+    validations:
+      required: true
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use Case
+      description: Explain how this feature would be used.
+      placeholder: "This would help meteorologists monitor storms in real-time."
+    validations:
+      required: true
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Add any other context or ideas here.
+      placeholder: "Include references to similar tools or implementations."
+    validations:
+      required: false
